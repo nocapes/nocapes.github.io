@@ -7,7 +7,8 @@ html,
 body {
   height: 100%;
   width: 100%;
-  font-family:Arial,sans-serif;
+    font-family: 'Molengo', sans-serif;
+    font-size:28px;
 }
 
 /* fix bs3 horizontal scrollbar bug */
@@ -30,6 +31,11 @@ img.grayscale {
     filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
     filter: gray; /* IE6-9 */
     -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+
+.blurb
+{
+    color: #C92828!important;
 }
 
 .icon-bar {
@@ -216,6 +222,10 @@ a {
 
 footer {
   padding: 30px 0;
+}
+
+footer a{
+    color: yellow;
 }
 
 /* -- end custom css for Bootstrap 3.x --*/
