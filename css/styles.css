@@ -36,6 +36,12 @@ h1,h2,h3,h4,.lead,.btn,.navbar a {
   letter-spacing:2px;
 }
 
+.featurette-item img {
+    max-width: 150px;
+    border-radius: 130px;
+    border: 3px solid white;
+}
+
 h1 {
   font-size:50px;
 }
@@ -164,6 +170,10 @@ img.grayscale {
 
 a {
     color: #C92828;
+    text-decoration: none;
+}
+a:hover {
+    color: yellow;
     text-decoration: none;
 }
 
