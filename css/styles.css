@@ -82,8 +82,8 @@ img.grayscale {
   font-size:14px;
 }
 
-.navbar-bold.affix {
-  background-color:#d46054;
+.navbar li.active a{
+    color:black;
 }
 
 .navbar-bold {
@@ -128,7 +128,7 @@ img.grayscale {
 }
 
 .alt.affix {
-  background-color:#4C06AB;
+  background-color:#C92828;
 }
 
 .alt li a:hover, .alt li.active {
@@ -226,6 +226,10 @@ footer {
 
 footer a{
     color: yellow;
+}
+
+footer p{
+    font-size:15px;
 }
 
 /* -- end custom css for Bootstrap 3.x --*/
